@@ -1,4 +1,4 @@
-public class WebPageTest {
+
     import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
@@ -32,4 +32,4 @@ import static org.testng.Assert.assertTrue;
             driver.quit();
         }
     }
-}
+
