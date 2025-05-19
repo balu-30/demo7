@@ -21,7 +21,7 @@ import static org.testng.Assert.assertTrue;
         public void titleValidationTest()
         {
             String actualTitle = driver.getTitle();
-            String expectedTitle = "My simple website";
+            String expectedTitle = "My Simple Website";
             Assert.assertEquals(actualTitle, expectedTitle);
             assertTrue(true, "Title should contain 'simple'");
         }
